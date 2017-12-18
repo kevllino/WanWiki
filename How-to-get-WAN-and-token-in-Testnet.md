@@ -11,7 +11,7 @@ How to get WAN with faucet:
 
 How to get token(test contract):
 
-1. Transfer WAN from your address to the contract address: 0xe1b89b502f67ae91b8633cbfb650ad4c8d36bfd7
+1. Transfer WAN from your address to the contract address:  0x9caf6d28ddc788540070c042ca453aa84eba1b76
 
 2. Your address will receive token in proportion of 1 WAN: 10 Token
 
