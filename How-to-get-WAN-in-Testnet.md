@@ -9,6 +9,6 @@ how to charge with faucet:
 
 5. click "give me wans" and lick the wans you want to charge 
 
-6  there will  give charge success promot after succeeding charge wan to the address
+6. there will  give charge success promot after succeeding charge wan to the address
 
 
