@@ -9,6 +9,6 @@ how to charge with faucet:
 
 5. click "give me wans" and lick the wans you want to charge 
 
-5. click "give me wans" and lick the wans you want to charge 
+
 
 
