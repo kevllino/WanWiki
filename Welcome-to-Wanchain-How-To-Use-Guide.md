@@ -153,7 +153,7 @@ To custom your tokens as easy as the way you do transactions .
 
 The flow of token transfer looks alot like ordinary transactions :
 
-![](![Markdown](http://i1.bvimg.com/625003/9b601c3aa6562b5b.png))
+![Markdown](http://i1.bvimg.com/625003/9b601c3aa6562b5b.png)
 
 
 ![Markdown](http://i2.bvimg.com/625003/56e2cf04259de02a.png)
