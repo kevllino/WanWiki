@@ -60,7 +60,6 @@ Feel free to reach out our community to share your views and thoughts,  we have 
 
 @ Instagram : https://www.instagram.com/wanchain_org
 
-
 Follow us on Wechat : Wanglutech or Wanchain_org
 
 
