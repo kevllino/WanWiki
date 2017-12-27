@@ -5,9 +5,9 @@
 ---
 Wanchain connects and exchanges value between different blockchain ledgers in a distributed manner. It uses the latest cryptographic theories to build a non-proprietary cross-chain protocol and a distributed ledger that records both cross-chain and intra-chain transactions. Any blockchain network, whether a public, private or consortium chain, can integrate with Wanchain to establish connections between different ledgers and perform low cost inter-ledger asset transfers. The Wanchain ledger supports not only smart contracts, but also token exchange privacy protection.
 
-This is an user centric open platform, which maintained by people who has faith on "Helping others to Help Themselves" spirit. 
+This is an user centric open platform, which is maintained by the people who have faith on "Helping others to Help Themselves" spirit. 
 
-The aim of Wanchain wiki is to help fresh individuals able to understand WANCHAIN in aspects of "`Product` , `Technology`, `Community` "etc in an efficient time manner and to get real hands-on experience without massive time consuming . 
+The aim of the Wanchain wiki is to help individuals understand WANCHAIN in aspects of "`Product` , `Technology` & `Community` " in an efficient timely manner and to get real hands-on experience without it being time consuming. 
 
 
 ----------
@@ -33,14 +33,14 @@ WangLu Tech obtained over ten million RMB angel investment from River Venture an
 
 -**Wanchain WALLET & EXPLORER Alfa Launch** --- **Nov.2017**
 
--**Wanchain WALLET & EXPLORER 1.0 Version Launch** ---`**Targeting Jan.18th 2018**`
+-**Wanchain WALLET & EXPLORER 1.0 Version Launch** ---`**Targeting Jan 2018**`
 
 
 ----------
 
 >**Scocial & Community**
 
-Feel free to reach out our community to share your views and thoughts,  we have several Community Managers standing by as well to help speed up the process. The issues we have received so far will all be consolidated and prioritized according to the severity and will make into our upcoming updates. We will also provide updates on the bug bounty after we process all the reported issues.
+Feel free to reach out to our community to share your views and thoughts,  we have several Community Managers standing by as well to help speed up the process. The issues we have received so far will all be consolidated and prioritized according to the severity and will be resolved in our upcoming updates. We will also provide an update on the bug bounty after we process all the reported issues.
  
  Join us now 
 
