@@ -39,7 +39,7 @@ You can download our Wallet from here [Click here to download your Wallet][1]
   ![Markdown](http://i2.bvimg.com/625003/4d4c7161a37641e5.png)
 
  4 . Your first account information has been created as shown in below :
-     From here you should be able to see your **_Ordinary_** & **_Private(MSA)_** address and other useful information
+       From here you should be able to see your **_Ordinary_** & **_Private(MSA)_** address and other useful information
 
 ![Markdown](http://i2.bvimg.com/625003/6e7b4bedc65e5cf5.png)
 
