@@ -3,7 +3,7 @@
 ### The token contract for privacy transaction in following is a demo only which can **NOT ** be used in production system
 
 pragma solidity ^0.4.11;
-```C++
+```
 /**
  * Math operations with safety checks
  */
@@ -48,7 +48,8 @@ library SafeMath {
     return a < b ? a : b;
   }
 }
-
+```
+```
 contract ERC20Protocol {
     /* This is a slight change to the ERC20 base standard.
     function totalSupply() constant returns (uint supply);
@@ -152,11 +153,14 @@ contract StandardToken is ERC20Protocol {
     function allowance(address _owner, address _spender) public constant returns (uint remaining) {
       return allowed[_owner][_spender];
     }
+```
 
-    ////////////////////////////////////////////////////////////////////////
-    mapping (address => uint) balances;
-    mapping (address => mapping (address => uint)) allowed;
-    
+////////////////////////////////////////////////////////////////////////
+
+
+mapping (address => uint) balances;
+mapping (address => mapping (address => uint)) allowed;
+  
     // privacy balance, bytes for public key 
     mapping (address => uint256) public privacyBalance;
     mapping (address => bytes) public otaKey;
@@ -182,11 +186,11 @@ contract StandardToken is ERC20Protocol {
         return privacyBalance[_owner];
     }   
     
-}
 
-> **Note:**
->   1. Privacy transaction function is "otatransfer" in the ERC20Protocol, the contract with privacy transaction need to implement ERC20Protocol
->   2. Privacy balance is stored in the map privacyBalance, function otabalanceOf can get this balance
+
+**Note:**
+1.  Privacy transaction function is "otatransfer" in the ERC20 Protocol, the contract with privacy transaction need to implement ERC20 Protocol
+2. Privacy balance is stored in the map privacyBalance, function otabalanceOf can get this balance
 
 
 
@@ -194,20 +198,27 @@ contract StandardToken is ERC20Protocol {
   
 ##  How to compile and deploy:  
 
-> **Requirement:**
+**Requirement:**
 
 > 1: a working Wanchain client, go to the github site, https://github.com/wanchain/go-wanchain, to get the latest version
+
 > 2: remix https://remix.ethereum.org, which is an amazing online smart contract development IDE
+
 > 3: your awesome Dapp consists of one or multiple smart contracts
 
 
-Steps:
+**Steps:**
 
-1: go to remix, copy and paste your smart contract code, make static syntax analysis, and compile it
-2: click Details on the right panel of remix, copy all the code of WEB3DEPLOY section from the pop-up
-3: copy the script and run it in gwan console
+> 1: go to remix, copy and paste your smart contract code, make static syntax analysis, and compile it
+
+> 2: click Details on the right panel of remix, copy all the code of WEB3DEPLOY section from the pop-up
+
+> 3: copy the script and run it in gwan console
+
+
 
 var erc20simple_contract = web3.eth.contract([{"constant":true,"inputs":[],"name":"name","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_spender","type":"address"},{"name":"_value","type":"uint256"}],"name":"approve","outputs":[{"name":"success","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"totalSupply","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_to","type":"address"},{"name":"_toKey","type":"bytes"},{"name":"_value","type":"uint256"}],"name":"otatransfer","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_from","type":"address"},{"name":"_to","type":"address"},{"name":"_value","type":"uint256"}],"name":"transferFrom","outputs":[{"name":"success","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"decimals","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"privacyBalance","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"}],"name":"balanceOf","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"initialBase","type":"address"},{"name":"baseKeyBytes","type":"bytes"},{"name":"value","type":"uint256"}],"name":"initPrivacyAsset","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_to","type":"address"},{"name":"_value","type":"uint256"}],"name":"transfer","outputs":[{"name":"success","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"}],"name":"otabalanceOf","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"},{"name":"_spender","type":"address"}],"name":"allowance","outputs":[{"name":"remaining","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"otaKey","outputs":[{"name":"","type":"bytes"}],"payable":false,"stateMutability":"view","type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_from","type":"address"},{"indexed":true,"name":"_to","type":"address"},{"indexed":false,"name":"_value","type":"uint256"}],"name":"Transfer","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_owner","type":"address"},{"indexed":true,"name":"_spender","type":"address"},{"indexed":false,"name":"_value","type":"uint256"}],"name":"Approval","type":"event"}]);
+
 
 var erc20simple = erc20simple_contract.new(
    {
@@ -220,6 +231,7 @@ var erc20simple = erc20simple_contract.new(
          console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
     }
  })
+
 
 4: the transaction id and contract address (hash values starting with '0x') will be printed out onto the console after few seconds
 
@@ -237,7 +249,7 @@ Suppose there are at lease 3 accounts in your WANCHAIN node
 
 1. Define asset function and variable
 
-var initPriBalance = 10000;
+```var initPriBalance = 10000;
 var priTranValue = 888;
 
 var wanBalance = function(addr){
@@ -267,10 +279,10 @@ var wait = function (conditionFunc) {
 wanUnlock(eth.accounts[1])
 wanUnlock(eth.accounts[2])
 stampBalance = 0.09;
-
+```
 
 2. buy stamp for token privacy transaction
-
+```
 abiDefStamp = [{"constant":false,"type":"function","stateMutability":"nonpayable","inputs":[{"name":"OtaAddr","type":"string"},{"name":"Value","type":"uint256"}],"name":"buyStamp","outputs":[{"name":"OtaAddr","type":"string"},{"name":"Value","type":"uint256"}]},{"constant":false,"type":"function","inputs":[{"name":"RingSignedData","type":"string"},{"name":"Value","type":"uint256"}],"name":"refundCoin","outputs":[{"name":"RingSignedData","type":"string"},{"name":"Value","type":"uint256"}]},{"constant":false,"type":"function","stateMutability":"nonpayable","inputs":[],"name":"getCoins","outputs":[{"name":"Value","type":"uint256"}]}];
 
 contractDef = eth.contract(abiDefStamp);
@@ -286,25 +298,26 @@ wait(function(){return eth.getTransaction(sendTx).blockNumber != null;});
 
 keyPairs = wan.computeOTAPPKeys(eth.accounts[1], otaAddrStamp).split('+');
 privateKeyStamp = keyPairs[0];
-
+```
 3. get stamp mix set for ring sign
 
+```
 var mixStampAddresses = wan.getOTAMixSet(otaAddrStamp,2);
 var mixSetWith0x = []
 for (i = 0; i < mixStampAddresses.length; i++){
     mixSetWith0x.push(mixStampAddresses[i])
 }
-
+```
 
 4. define token contract ABI
-
+```
 var erc20simple_contract = web3.eth.contract([{"constant":true,"inputs":[],"name":"name","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_spender","type":"address"},{"name":"_value","type":"uint256"}],"name":"approve","outputs":[{"name":"success","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"totalSupply","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_to","type":"address"},{"name":"_toKey","type":"bytes"},{"name":"_value","type":"uint256"}],"name":"otatransfer","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_from","type":"address"},{"name":"_to","type":"address"},{"name":"_value","type":"uint256"}],"name":"transferFrom","outputs":[{"name":"success","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"decimals","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"privacyBalance","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"}],"name":"balanceOf","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"initialBase","type":"address"},{"name":"baseKeyBytes","type":"bytes"},{"name":"value","type":"uint256"}],"name":"initPrivacyAsset","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_to","type":"address"},{"name":"_value","type":"uint256"}],"name":"transfer","outputs":[{"name":"success","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"}],"name":"otabalanceOf","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"},{"name":"_spender","type":"address"}],"name":"allowance","outputs":[{"name":"remaining","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"otaKey","outputs":[{"name":"","type":"bytes"}],"payable":false,"stateMutability":"view","type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_from","type":"address"},{"indexed":true,"name":"_to","type":"address"},{"indexed":false,"name":"_value","type":"uint256"}],"name":"Transfer","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_owner","type":"address"},{"indexed":true,"name":"_spender","type":"address"},{"indexed":false,"name":"_value","type":"uint256"}],"name":"Approval","type":"event"}]);
-
+```
 contractAddr = '0xa2e526a3632d225f15aa0592e00bed31a48c953d';//this address should changed according to your contract deploy
 erc20simple = erc20simple_contract.at(contractAddr)
 
 5. create one time address for account1
-
+```
 var wanAddr = wan.getWanAddress(eth.accounts[1]);
 var otaAddrTokenHolder = wan.generateOneTimeAddress(wanAddr);
 keyPairs = wan.computeOTAPPKeys(eth.accounts[1], otaAddrTokenHolder).split('+');
@@ -317,39 +330,39 @@ ota1Balance = erc20simple.privacyBalance(addrTokenHolder)
 if (ota1Balance != initPriBalance) {
 	throw Error('ota1 balance wrong! balance:' + ota1Balance + ', except:' + initPriBalance)
 }
-
+```
 6. generate ring sign data
-
+```
 var hashMsg = addrTokenHolder
 var ringSignData = personal.genRingSignData(hashMsg, privateKeyStamp, mixSetWith0x.join("+"))
-
+```
 7. create one time address for account2
-
+```
 var wanAddr = wan.getWanAddress(eth.accounts[2]);
 var otaAddr4Account2 = wan.generateOneTimeAddress(wanAddr);
 keyPairs = wan.computeOTAPPKeys(eth.accounts[2], otaAddr4Account2).split('+');
 privateKeyOtaAcc2 = keyPairs[0];
 addrOTAAcc2 = keyPairs[2];
-
+```
 8. generate token privacy transfer data
-
+```
 cxtInterfaceCallData = erc20simple.otatransfer.getData(addrOTAAcc2, otaAddr4Account2, priTranValue);
-
+``
 9. generate call token privacy transfer data
-
+``
 glueContractDef = eth.contract([{"constant":false,"type":"function","inputs":[{"name":"RingSignedData","type":"string"},{"name":"CxtCallParams","type":"bytes"}],"name":"combine","outputs":[{"name":"RingSignedData","type":"string"},{"name":"CxtCallParams","type":"bytes"}]}]);
 glueContract = glueContractDef.at("0x0000000000000000000000000000000000000000")
 combinedData = glueContract.combine.getData(ringSignData, cxtInterfaceCallData)
-
+```
 
 10.send privacy transaction
-
+```
 sendTx = personal.sendPrivacyCxtTransaction({from:addrTokenHolder, to:contractAddr, value:0, data: combinedData, gasprice:'0x' + (200000000000).toString(16)}, privateKeyTokenHolder)
 wait(function(){return eth.getTransaction(sendTx).blockNumber != null;});
-
+```
 
 11. check balance
-
+```
 ota2Balance = erc20simple.privacyBalance(addrOTAAcc2)
 if (ota2Balance != priTranValue) {
 	throw Error("ota2 balance wrong. balance:" + ota2Balance +  ", expect:" + priTranValue)
@@ -359,5 +372,4 @@ ota1Balance = erc20simple.privacyBalance(addrTokenHolder)
 if (ota1Balance != initPriBalance - priTranValue) {
 	throw Error("ota2 balance wrong. balance:" + ota1Balance +  ", expect:" + (initPriBalance - priTranValue))
 }
-
 ```
