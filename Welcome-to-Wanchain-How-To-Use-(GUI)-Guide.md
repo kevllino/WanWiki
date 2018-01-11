@@ -32,6 +32,7 @@ You can download our Wallet from here [Click here to download your Wallet](https
  
 
 3. You should be able to see your wallet main page now , please click **ACCOUNT** to create your first account
+**IMPORTANT: For security reasons, once you created your password, it is NO longer changeable .**
  
   ![Markdown](http://i2.bvimg.com/625003/4d4c7161a37641e5.png)
 
@@ -96,7 +97,7 @@ Notice : _Only fixed value can be selected under private transaction mode_
 Click Get OTAs ---> Enter password ---> click Redeem
 ![Markdown](http://i4.bvimg.com/625003/3fe60b0639ab081b.png)
 
-NOTICE : The proccess of Redeem will not happen in real time due to time length on block proccess are various
+NOTICE : The process of Redeem will **NOT happen in real time**  (2-3 mins delay in general )
 
 ![Markdown](http://i2.bvimg.com/625003/2305ee4d8433460e.png)
 
