@@ -41,7 +41,7 @@ You can download our Wallet from here [Click here to download your Wallet](https
     
  From here you should be able to see your **_Ordinary_** & **_Private(MSA)_** address and other useful information
 
-![Markdown](http://i2.bvimg.com/625003/6e7b4bedc65e5cf5.png)
+![Markdown](http://i1.bvimg.com/625003/71dfdbd9de61c181.png)
 
 
 ----------
@@ -58,7 +58,7 @@ Here is an example when you receive WANs through ordinary & private address
 
 To conduct any transactions , just simply click **paste** icon behind your address. 
 
-![Markdown](http://i1.bvimg.com/625003/8e5ae41614295d2a.png)
+![Markdown](http://i1.bvimg.com/625003/b13c81876f8b613c.png)
 
 
 ----------
@@ -161,6 +161,13 @@ The flow of token transfer looks alot like ordinary transactions :
 ![Markdown](http://i2.bvimg.com/625003/56e2cf04259de02as.png)
 
 
-## #to be continued
+# Always Back up
 
+**Remember , it's always important to back up the Account & Application data**
+
+> Click File -> Backup -> Accounts/Application Data 
+
+![Markdown](http://i4.bvimg.com/625003/55b146ba190bf990.png)
+
+Make sure you store all files under category of Account & Application Data  in a safe place and keep it privately .
 
