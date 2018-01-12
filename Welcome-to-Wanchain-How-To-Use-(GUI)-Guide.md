@@ -161,7 +161,7 @@ The flow of token transfer looks alot like ordinary transactions :
 ![Markdown](http://i2.bvimg.com/625003/56e2cf04259de02as.png)
 
 
-# Always Back up
+# Always Back Up
 
 **Remember , it's always important to back up the Account & Application data**
 
@@ -169,5 +169,11 @@ The flow of token transfer looks alot like ordinary transactions :
 
 ![Markdown](http://i4.bvimg.com/625003/55b146ba190bf990.png)
 
-Make sure you store all files under category of Account & Application Data  in a safe place and keep it privately .
+1. Please make sure you download wallet from our official website or https://github.com/wanchain/go-wanchain/releases, you are at your own risk if download from elsewhere. 
+
+2. Please make sure the password you use to create new account strong enough to protect your private key 
+
+3. Please make sure you back up keystore by using hard-wallet or simply write down on a piece of paper , it is NOT recommended to use screen cut / email / notebook /text / social messengers etc as methods to back up  
+
+4. Please make sure NOT using a jail-break phone    
 
