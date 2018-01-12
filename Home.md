@@ -51,6 +51,8 @@ https://github.com/wanchain/go-wanchain/wiki/Welcome-to-Wanchain-How-To-Use(CLI)
 Build from source: 
 https://github.com/wanchain/go-wanchain/wiki/Install-and-build
 
+How to deploy a smart contract 
+https://github.com/wanchain/go-wanchain/wiki/How--to-deploy-smart-contract
 
 
 
