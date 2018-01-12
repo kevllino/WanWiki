@@ -3,9 +3,9 @@
 # Welcome to Wanchain
 
 ---
-Wanchain is about bringing the world's digital assets on one blockchain. Wanchain's blockchain brings together the unique capabilities of cross-chain, privacy and programmability.
+Wanchain's vision is to rebuild finance as we know it, by bringing the world's digital assets on one blockchain. Wanchain's blockchain brings together the unique capabilities of privacy, cross-chain and smart contracts.
 
-Using the latest cryptographic theories, Wanchain is able to create a non-proprietary protocol, that makes it easy for any public, private or consortium chains to connect into Wanchain and hence exchange digital assets amongst them. Privacy is built into the Wanchain protocol through the integration of ring signatures and one-time stealth addresses. Further, Wanchain's blockchain is a fork of Ethereum, enabling the ability to deploy any smart contract leveraging the existing development tools. These three aspects of Wanchain make it a compelling platform to deliver any asset management application that requires easy access to assets residing across different blockchains, while still ensuring privacy protection of the asset holders.
+Privacy is built into the Wanchain protocol through the integration of ring signatures and one-time stealth addresses. To support Cross-Chain capabilities, Wanchain leverages latest research in cryptographic theories to create a non-proprietary protocol, that makes it easy for any public, private or consortium chains to connect into Wanchain and thus exchange digital assets amongst them. Further, Wanchain's blockchain is based on Ethereum, enabling the ability to deploy any smart contract leveraging the existing development tools. These three aspects of Wanchain make it a compelling platform to deliver any distributed application that requires easy access to assets residing across different blockchains, while still ensuring privacy protection of the asset holders.
 
 
 >**Scocial Channels**
