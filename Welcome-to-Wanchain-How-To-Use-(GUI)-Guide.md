@@ -169,11 +169,11 @@ The flow of token transfer looks alot like ordinary transactions :
 
 ![Markdown](http://i4.bvimg.com/625003/55b146ba190bf990.png)
 
-1. Please make sure you download wallet from our official website or https://github.com/wanchain/go-wanchain/releases, you are at your own risk if download from elsewhere. 
+> 1. Please make sure you download wallet from our official website or https://github.com/wanchain/go-wanchain/releases, you are at your own risk if download from elsewhere. 
 
-2. Please make sure the password you use to create new account strong enough to protect your private key 
+> 2. Please make sure the password you use to create new account strong enough to protect your private key 
 
-3. Please make sure you back up keystore by using hard-wallet or simply write down on a piece of paper , it is NOT recommended to use screen cut / email / notebook /text / social messengers etc as methods to back up  
+> 3. Please make sure you back up keystore by using hard-wallet or simply write down on a piece of paper , it is NOT recommended to use screen cut / email / notebook /text / social messengers etc as methods to back up  
 
-4. Please make sure NOT using a jail-break phone    
+> 4. Please make sure NOT using a jail-break phone    
 
