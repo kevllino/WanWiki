@@ -172,7 +172,7 @@ At any circumstances, you should **NOT** share or reveal your keystore informati
 
 ### We now show you HOW-TO-DO it step by step (Accounts) ：
 You can always find your accounts & application data at backups.
->Click File -> Backups -> Accounts /Application data 
+>Click File -> Backup -> Accounts /Application data 
 
 ![Markdown](http://i2.bvimg.com/625003/32eea5b1c2972c28.png)
 
