@@ -163,35 +163,36 @@ The flow of token transfer looks alot like ordinary transactions :
 
 # Always Back Up
 
-**Remember , it's important to back up your Account & Application data in a safe & secure place **
+**Remember , it's important to back up your Account & Application data in a safe & secure place**
 
 > Keystore controls your account details, if you lose your keystore files you are at high risks to lose all your current assets, therefore we **strongly recommend** you backup all keystore files at a place you could trust and won't forget (ie Offline PC device or U-Disk etc) . At any circumstances, you should **NOT** share or reveal your keystore information with anyone you don't trust, you might get stolen by doing so . If you think your keystore has been leak to any 3rd parties, please transfer your assets to a new account ! 
 
 
 ### We now show you HOW-TO-DO it step by step (Accounts) ：
 You can always find your accounts & application data at backups.
-> Click File -> Backups -> Accounts /Application data 
+>Click File -> Backups -> Accounts /Application data 
 
 ![Markdown](http://i2.bvimg.com/625003/32eea5b1c2972c28.png)
 
 Once you clicked Accounts it will pop up a folder with "Keystore" file inside .
 
 Here is the root:
-C:\Users\Administrator\AppData\Roaming\wanchain
+>C:\Users\Administrator\AppData\Roaming\wanchain
 
 Double click Keystore file , you will find all your accounts information in the form factor as below: 
+
 ![Markdown](http://i1.bvimg.com/625003/9dcd23b0e0e34cac.png)
 
 Here are the files you **NEED TO KEEP IN SAFE** all the time !!!  Backup them now in an offlined PC or U-disk.
 
-### Here is HOW-TO-DO-IT for Application data ###
+### Here is HOW-TO-DO-IT for Application data
 
 Almost same process as above, go to File-> Backup -> Application Data 
 By clicking the Application data, you will see bunch of files in the folder that pops up to you as below：
 
 ![Markdown](http://i1.bvimg.com/625003/acaaceb19092e1aa.png)
 
-**Select them all and copy paste to a safety place where you can trust. **
+**Select them all and copy paste to a safety place where you can trust.**
 
 
 --------------------------------------------------------------------------------------------------------------------
