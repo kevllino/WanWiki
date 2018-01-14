@@ -165,7 +165,9 @@ The flow of token transfer looks alot like ordinary transactions :
 
 **Remember , it's important to back up your Account & Application data in a safe & secure place**
 
-> Keystore controls your account details, if you lose your keystore files you are at high risks to lose all your current assets, therefore we **strongly recommend** you backup all keystore files at a place you could trust and won't forget (ie Offline PC device or U-Disk etc) . At any circumstances, you should **NOT** share or reveal your keystore information with anyone you don't trust, you might get stolen by doing so . If you think your keystore has been leak to any 3rd parties, please transfer your assets to a new account ! 
+> Keystore controls your account details, if you lose your keystore files you are at high risks to lose all your current assets, therefore we **strongly recommend** you backup all keystore files at a place you could trust and won't forget (ie Offline PC device or U-Disk etc) . 
+
+At any circumstances, you should **NOT** share or reveal your keystore information with anyone you don't trust, you might get stolen by doing so . If you think your keystore has been leak to any 3rd parties, please transfer your assets to a new account ! 
 
 
 ### We now show you HOW-TO-DO it step by step (Accounts) ：
