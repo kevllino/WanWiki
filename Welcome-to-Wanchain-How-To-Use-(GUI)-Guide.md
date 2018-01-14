@@ -190,6 +190,7 @@ Here are the files you **NEED TO KEEP IN SAFE** all the time !!!  Backup them no
 ### Here is HOW-TO-DO-IT for Application data
 
 Almost same process as above, go to File-> Backup -> Application Data 
+
 By clicking the Application data, you will see bunch of files in the folder that pops up to you as below：
 
 ![Markdown](http://i1.bvimg.com/625003/acaaceb19092e1aa.png)
