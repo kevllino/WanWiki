@@ -78,7 +78,7 @@ Notice : _Insufficient amount of transaction fees may cause transaction failure 
 
 > Click **Transfer**  ---> Paste **Recipient's private** address ----> Input **Amount** ---> Click **Send**
 
-DO NOT FORGET TO SWITCH YOUR ORDINARY 
+DO NOT FORGET TO SWITCH YOUR ORDINARY ADDRESS
 
 ![Markdown](http://i2.bvimg.com/625003/abfe1af7456fb598.png)
 
