@@ -15,7 +15,7 @@
 >* Conduct your private transactions
 
 
-You can download our Wallet from here [Click here to download your Wallet](https://github.com/wanchain/go-wanchain/releases/tag/v0.3.3)
+You can download our Wallet from here [Click to download your Wallet](https://github.com/wanchain/go-wanchain/releases/tag/v0.3.3)
 
 
 
