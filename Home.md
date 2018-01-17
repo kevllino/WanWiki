@@ -38,7 +38,7 @@ Follow us on Wechat : Wanchain_org
 We launched Wanchain's Beta Testnet on 12-Dec-2017 and are currently in the process of releasing technical updates with feature updates and fixes for reported issues. These updates will yield to a stable Wanchain-1.0 release on the Mainnet targeted for January 2018.
 
 To get started, download our latest product. Please visit: 
-https://github.com/wanchain/go-wanchain/releases/tag/v0.3.3
+https://github.com/wanchain/go-wanchain/releases/tag/v1.0.0
 
 Once you download and install our product, use the following documents:
 
