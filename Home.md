@@ -41,10 +41,10 @@ https://github.com/wanchain/go-wanchain/releases/tag/v1.0.0
 Once you download and install our product, use the following documents:
 
 Wallet - GUI:
-https://github.com/wanchain/go-wanchain/wiki/Welcome-to-Wanchain-How-To-Use-(GUI)-Guide
+https://github.com/wanchain/go-wanchain/wiki/How-To-Use-(GUI)-Guide
 
 Wallet - CLI:
-https://github.com/wanchain/go-wanchain/wiki/Welcome-to-Wanchain-How-To-Use(CLI)-Guide
+https://github.com/wanchain/go-wanchain/wiki/How-To-Use(CLI)-Guide
 
 Build from source: 
 https://github.com/wanchain/go-wanchain/wiki/Install-and-build
