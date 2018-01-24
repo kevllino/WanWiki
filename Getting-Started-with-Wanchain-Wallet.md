@@ -38,4 +38,8 @@ Once downloaded, unzip the contents and launch the Wallet app. You will see a sc
 <br>
 <br>
 
-The first 
+The app may take up to 5 minutes to launch the first time. Once downloaded, you will now be able to create your account.
+
+<br>
+
+**4. Create your Mainnet Account**
