@@ -62,7 +62,19 @@ Start by clicking on the "ACCOUNTS" button on the top right of the Wallet.
 <br>
 <br>
 
-Give the Account a name and create a strong password. Make sure that you remember the password. **If you lose this password, you will permanently lose your WANs**.
+Give the Account a name and create a strong password. Make sure that you remember the password and backup your keystore in a safe place. **If you lose either the keystore or the password, you will permanently lose your WANs**.
 
+<br>
 
+**5. Your Account Address**
+
+You will see 2 addresses against your account.
+
+The first is the 'Public Address' and the second is the 'Private Address'. The 'Private Address' is used for private transactions.
+
+<kbd>
+[[images/my_accounts.png]]
+</kbd>
+
+In this example, the public address is: **0x1212B500Ff0c33Ec08f832431b61E0aAAbdEbC71** and the private address is: **0x0383dec780c958f607044f1b5cd7d8d2775e7c7e4d4f1ab11be9a3570e8484ff5c027c457bf98dc13d101338b7cd0a112552f0702e18199818e78fe3d6e1d6cf420c**.
 
