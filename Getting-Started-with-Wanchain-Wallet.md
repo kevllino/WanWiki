@@ -20,3 +20,13 @@ Otherwise, please uninstall all previous versions of the Wanchain Wallet.
 
 To store, accept and send WAN, you need the Wanchain wallet. Download the [latest release of the Wanchain wallet](https://github.com/wanchain/go-wanchain/releases/tag/v1.0.0). Choose the release specific to the system you are using.
 
+<kbd>
+[[images/wallet_list.png]]
+</kbd>
+
+<br>
+
+**3. Launch the Wanchain Wallet**
+
+Once downloaded, unzip the contents and launch the Wallet app.
+
