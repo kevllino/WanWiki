@@ -55,3 +55,14 @@ You will have to first create an account. Make sure that the "main network" is s
 
 Start by clicking on the "ACCOUNTS" button on the top right of the Wallet.
 
+<kbd>
+[[images/first_account.png]]
+</kbd>
+
+<br>
+<br>
+
+Give the Account a name and create a strong password. Make sure that you remember the password. **If you lose this password, you will permanently lose your WANs**.
+
+
+
