@@ -32,6 +32,10 @@ To store, accept and send WAN, you need the Wanchain wallet. Download the [lates
 Once downloaded, unzip the contents and launch the Wallet app. You will see a screen similar to the following:
 
 <kbd>
-[[images/launch_img.png]]{:height="36px" width="36px"}
+[[images/launch_img.png]]
 </kbd>
 
+<br>
+<br>
+
+The first 
