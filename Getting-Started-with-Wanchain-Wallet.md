@@ -49,3 +49,9 @@ You will have to first create an account. Make sure that the "main network" is s
 <kbd>
 [[images/check_mainnet.png]]
 </kbd>
+
+<br>
+<br>
+
+Start by clicking on the "ACCOUNTS" button on the top right of the Wallet.
+
