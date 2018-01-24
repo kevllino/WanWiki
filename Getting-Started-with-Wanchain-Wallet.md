@@ -76,5 +76,22 @@ The first is the 'Public Address' and the second is the 'Private Address'. The '
 [[images/my_accounts.png]]
 </kbd>
 
-In this example, the public address is: **0x1212B500Ff0c33Ec08f832431b61E0aAAbdEbC71** and the private address is: **0x0383dec780c958f607044f1b5cd7d8d2775e7c7e4d4f1ab11be9a3570e8484ff5c027c457bf98dc13d101338b7cd0a112552f0702e18199818e78fe3d6e1d6cf420c**.
+<br>
+<br>
 
+In this example, the addresses are:
+<br>
+Public: **0x1212B500Ff0c33Ec08f832431b61E0aAAbdEbC71** 
+<br>
+Private: **0x0383dec780c958f607044f1b5cd7d8d2775e7c7e4d4f1ab11be9a3570e8484ff5c027c457bf98dc13d101338b7cd0a112552f0702e18199818e78fe3d6e1d6cf420c**.
+
+<br>
+<br>
+
+**6. Receiving and Sending WAN**
+
+To receive WANs, copy the 'Public Address' (or the 'Private Address' for Private transactions), and share this address with the other party.
+
+<br>
+
+To send WANs, click on the "Transfer" button, then enter the address of the other party.
