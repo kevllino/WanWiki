@@ -25,6 +25,7 @@ To store, accept and send WAN, you need the Wanchain wallet. Download the [lates
 </kbd>
 
 <br>
+<br>
 
 **3. Launch the Wanchain Wallet**
 
