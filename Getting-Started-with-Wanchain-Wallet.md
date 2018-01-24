@@ -16,7 +16,7 @@ Otherwise, please uninstall all previous versions of the Wanchain Wallet.
 
 <br> 
 
-**2. Downloading the Wanchain Wallet**
+**2. Download the Wanchain Wallet**
 
 To store, accept and send WAN, you need the Wanchain wallet. Download the [latest release of the Wanchain wallet](https://github.com/wanchain/go-wanchain/releases/tag/v1.0.0). Choose the release specific to the system you are using.
 
@@ -42,4 +42,10 @@ The app may take up to 5 minutes to launch the first time. Once downloaded, you 
 
 <br>
 
-**4. Create your Mainnet Account**
+**4. Create your WAN Account**
+
+You will have to first create an account. Make sure that the "main network" is selected.
+
+<kbd>
+[[images/check_mainnet.png]]
+</kbd>
