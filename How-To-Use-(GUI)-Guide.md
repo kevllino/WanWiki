@@ -88,7 +88,7 @@ Notice : _Only fixed value can be selected under private transaction mode_
 
 
 
-#Section 2: Redeem from your OTA
+# Section 2: Redeem from your OTA
 
 
 ----------
@@ -103,7 +103,7 @@ NOTICE : The process of Redeem will **NOT happen in real time**  (2-3 mins delay
 
 ![Markdown](http://i2.bvimg.com/625003/2305ee4d8433460e.png)
 
-#Section 3 : Check your balance via Wanchain explorer 
+# Section 3 : Check your balance via Wanchain explorer 
 
 
 ----------
@@ -124,7 +124,7 @@ See your transaction details by entering Block Height / Address / TxHash
 
 ![Markdown](http://i4.bvimg.com/625003/aafdb353c57fe458.png)
 
-#Section 4 : Have an existing account ?
+# Section 4 : Have an existing account ?
 
 
 ----------
@@ -140,7 +140,7 @@ Have your account back in a sec !~
 ![Markdown](http://i4.bvimg.com/625003/6b741e494e8055bc.png)
 
   
-##Section 5 : How to use your Token
+# Section 5 : How to use your Token
 
 
 ----------
