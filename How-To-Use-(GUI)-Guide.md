@@ -6,7 +6,7 @@
 ----------
 
 
->* Download and launch the _**Wanchain Wallet**_
+>* Download and launch the **Wanchain Wallet**
 
 >* Create your accounts
 
@@ -123,7 +123,7 @@ Things to know before you conduct balance review :
 See your transaction details by entering Block Height / Address / TxHash
 
 
-![Markdown](http://i4.bvimg.com/625003/aafdb353c57fe458.png)
+![Markdown](http://i1.bvimg.com/625003/40f1f720e6606b27.png)
 
 # Section 4 : Have an existing account ?
 
