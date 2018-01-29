@@ -22,13 +22,10 @@ You can download our Wallet from here [Click to download your Wallet](https://gi
 
 1. Unzip & setup the file ,it might takes you a while to sync up with mainnet for first time user
    
-
- ![Markdown](http://i1.bvimg.com/625003/d99ea2e3860a7189.png)
-
 2. Click _LAUNCH APPLICATION_ when it's ready ! Welcome to **Wanchain Wallet World** 
  
 
-![Markdown](http://i1.bvimg.com/625003/a9a5c9224d4ed947.png)
+![Markdown](http://i1.bvimg.com/625003/7e2e7e4bf7d6660d.png)
  
 
 3. You should be able to see your wallet main page now , please click **ACCOUNT** to create your first account
@@ -41,7 +38,7 @@ You can download our Wallet from here [Click to download your Wallet](https://gi
     
  From here you should be able to see your **_Ordinary_** & **_Private(MSA)_** address 
 
-![Markdown](http://i4.bvimg.com/625003/8bdc665cfd104b73.png)
+![Markdown](http://i4.bvimg.com/625003/efa7c0575f762acd.png)
 
 
 ----------
@@ -54,11 +51,15 @@ On the opposite, private address as known as MSA (Master Stealth Address) which 
 
 Here is an example when you receive WANs through ordinary & private address
 
-![Markdown](http://i4.bvimg.com/625003/ce73dd7e7565e859.png)
+**Ordinary transactions**
 
-To conduct any transactions , just simply click **paste** icon behind your address. 
+![Markdown](http://i1.bvimg.com/625003/45ea42a5b68e92f5.png)
 
-![Markdown](http://i1.bvimg.com/625003/b13c81876f8b613c.png)
+***
+
+**Private transactions**
+
+![Markdown](http://i1.bvimg.com/625003/57f8ea60a15eef6a.png)
 
 
 ----------
@@ -96,7 +97,7 @@ Notice : _Only fixed value can be selected under private transaction mode_
 > To redeem your WAN from OTA you need to click **Redeem**
 
 Click Get OTAs ---> Enter password ---> click Redeem
-![Markdown](http://i4.bvimg.com/625003/3fe60b0639ab081b.png)
+![Markdown](http://i2.bvimg.com/625003/77b435c8264ae594.png)
 
 NOTICE : The process of Redeem will **NOT happen in real time**  (2-3 mins delay in general )
 
