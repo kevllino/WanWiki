@@ -140,7 +140,7 @@ Have your account back in a sec !~
 ![Markdown](http://i4.bvimg.com/625003/6b741e494e8055bc.png)
 
   
-# Section 5 : How to use your Token
+# Section 5 : How to use your token
 
 
 ----------
@@ -148,16 +148,13 @@ Tokens act like native currency in their respective DAPPS.
 To custom your tokens as easy as the way you do transactions . 
 > Click **CONTRACTS**  ---> **WATCH TOKEN**  ----> Input **Token contract address** ---> Click **Ok**
 
-![Markdown](http://i1.bvimg.com/625003/2522428d3e47ea63.png)
+![Markdown](http://i2.bvimg.com/625003/4be04ac9c56b2001.png)
 
 ![Markdown](http://i4.bvimg.com/625003/a464179e9339c4d8.png)
 
 > Now since you have token in Wanwallet, let's do some transactions 
 
 The flow of token transfer looks alot like ordinary transactions :
-
-![Markdown](http://i1.bvimg.com/625003/9b601c3aa6562b5b.png)
-
 
 ![Markdown](http://i2.bvimg.com/625003/56e2cf04259de02as.png)
 
