@@ -52,5 +52,12 @@ https://github.com/wanchain/go-wanchain/wiki/Install-and-build
 How to deploy a smart contract 
 https://github.com/wanchain/go-wanchain/wiki/How--to-deploy-smart-contract
 
+<br>
+<br>
 
+**To Donate:**
+
+**ETH:** 0x9522f4412FDFd5c7cF89918EA79bf21fe640A444
+<br>
+**BTC:** 12PHxijByXFD3LnKB2KmFBdkHAYshiSmzr
 
