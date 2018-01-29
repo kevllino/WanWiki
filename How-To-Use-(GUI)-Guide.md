@@ -203,3 +203,12 @@ The **Accounts & Application Data** stores all your public transaction records, 
 
 **Lastly, PLEASE BACK YOUR KEYSTORE & APPLICATION DATA UP NOW AND ALWAYS !!!**
 
+
+<br>
+<br>
+
+**To Donate:**
+
+**ETH:** 0x9522f4412FDFd5c7cF89918EA79bf21fe640A444
+<br>
+**BTC:** 12PHxijByXFD3LnKB2KmFBdkHAYshiSmzr
