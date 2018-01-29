@@ -201,5 +201,5 @@ By clicking the Application data, you will see bunch of files in the folder that
 
 The **Accounts & Application Data** stores all your public transaction records, private transaction records and OTA balance. If you delete these files , you will not lose your assets but you will not be able to see your assets at your current wallet  at meantime unless you back them up in advance . However, you can always call it back via "Import Account" which we have demonstrated to you in above content. 
 
-**In a nutshell, PLEASE BACK YOUR KEYSTORE & APPLICATION DATA UP NOW AND ALWAYS !!!**
+**Lastly, PLEASE BACK YOUR KEYSTORE & APPLICATION DATA UP NOW AND ALWAYS !!!**
 
