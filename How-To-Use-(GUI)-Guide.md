@@ -65,16 +65,17 @@ Here is an example when you receive WANs through ordinary & private address
 ----------
 
 
-#Lets do your first ordinary transaction !
+## Lets do your first ordinary transaction !
 
 as simple as in 4 steps :
 
 > Click **Transfer**  ---> Paste **recipient's ordinary ** address ----> Input **Amount** ---> Click **Send**
+
 ![Markdown](http://i4.bvimg.com/625003/b188cae3a26a3a9f.png)
 
 Notice : _Insufficient amount of transaction fees may cause transaction failure or longger time to wait_
 
-#Almost same process to do your private transaction ! 
+## Almost same process to do your private transaction ! 
 
 
 > Click **Transfer**  ---> Paste **Recipient's private** address ----> Input **Amount** ---> Click **Send**
