@@ -36,6 +36,7 @@ Follow us on Wechat : Wanchain_org
 >**Product Update**
 
 To get started, download our latest product. Please visit: 
+
 https://github.com/wanchain/go-wanchain/releases/tag/v1.0.0
 
 Once you download and install our product, use the following documents:
