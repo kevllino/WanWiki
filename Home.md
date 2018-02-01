@@ -52,6 +52,12 @@ https://github.com/wanchain/go-wanchain/wiki/Install-and-build
 How to deploy a smart contract 
 https://github.com/wanchain/go-wanchain/wiki/How--to-deploy-smart-contract
 
+Mainnet Explorer 
+https://explorer.wanchain.org/
+
+Testnet Explorer
+http://47.104.61.26/
+
 <br>
 <br>
 
