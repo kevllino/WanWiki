@@ -68,9 +68,4 @@ http://47.104.61.26/
 <br>
 <br>
 
-**To Donate:**
-
-**ETH:** 0x9522f4412FDFd5c7cF89918EA79bf21fe640A444
-<br>
-**BTC:** 12PHxijByXFD3LnKB2KmFBdkHAYshiSmzr
 
