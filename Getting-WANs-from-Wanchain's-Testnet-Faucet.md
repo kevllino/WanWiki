@@ -1,9 +1,8 @@
-## How to get WAN coins
+## How to get TEST WAN coins
 
-20-Dec-2017 Update: 
-* Github has requested that Gist be no longer used to request test WAN coins.
-* Wanchain will work on an alternative scheme for our community members to request test WAN coins.
-* Meantime, please post your test Wanchain wallet address to Discord [https://discord.gg/3DpeV6W](https://discord.gg/3DpeV6W) under the “#beta_testnet” channel.
+Wanchain has set up a test faucet where anyone with a Google+, Twitter or Facebook account can request TEST WANs.
+
+For more information, visit: [http://52.88.191.131:8080/](http://52.88.191.131:8080/)
 
 Wanchain Team
 
