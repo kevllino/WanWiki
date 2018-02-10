@@ -95,13 +95,3 @@ To receive WANs, copy the 'Public Address' (or the 'Private Address' for Private
 <br>
 
 To send WANs, click on the "Transfer" button, then enter the address of the other party.
-
-
-<br>
-<br>
-
-**To Donate:**
-
-**ETH:** 0x9522f4412FDFd5c7cF89918EA79bf21fe640A444
-<br>
-**BTC:** 12PHxijByXFD3LnKB2KmFBdkHAYshiSmzr
