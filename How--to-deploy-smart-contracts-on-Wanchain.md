@@ -1,6 +1,6 @@
 
 
-### The token contract for privacy transaction in following is a demo only which can **NOT ** be used in production system
+### The following smart contract code is only an example and is **NOT** to be used in Production systems.
 
 pragma solidity ^0.4.11;
 ```C++
