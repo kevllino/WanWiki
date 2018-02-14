@@ -80,10 +80,10 @@ The first is the 'Public Address' and the second is the 'Private Address'. The '
 <br>
 
 In this example, the addresses are:
+### **NOTE: DO NOT USE THESE ADDRESSES FOR ANY TRANSACTIONS. YOUR COINS WILL BE LOST FOREVER.**
+Public: 0x1212B500Ff0c33Ec08f832431b61E0aAAbdEbC71
 <br>
-Public: **0x1212B500Ff0c33Ec08f832431b61E0aAAbdEbC71** 
-<br>
-Private: **0x0383dec780c958f607044f1b5cd7d8d2775e7c7e4d4f1ab11be9a3570e8484ff5c027c457bf98dc13d101338b7cd0a112552f0702e18199818e78fe3d6e1d6cf420c**.
+Private: 0x0383dec780c958f607044f1b5cd7d8d2775e7c7e4d4f1ab11be9a3570e8484ff5c027c457bf98dc13d101338b7cd0a112552f0702e18199818e78fe3d6e1d6cf420c
 
 <br>
 <br>
