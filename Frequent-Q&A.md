@@ -48,7 +48,7 @@ https://swap.wanchain.org/
 
 ## Troubles on running latest windows wallet client-end
 
-If you download our Windows wallet Beta version in previous, please delete files as below before you download the latest windows wallet.
+If you download our Windows wallet Beta version in previous, please delete files as below before you install and run the latest windows wallet.
 
 File ONE : 
 
