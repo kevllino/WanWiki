@@ -192,7 +192,7 @@ Almost same process as above, go to File-> Backup -> Application Data
 
 By clicking the Application data, you will see bunch of files in the folder that pops up to you as below：
 
-![Markdown](http://i1.bvimg.com/625003/acaaceb19092e1aa.png)
+![Markdown](http://i2.bvimg.com/625003/acaaceb19092e1aa.png)
 
 **Select them all and copy paste to a safety place where you can trust.**
 
