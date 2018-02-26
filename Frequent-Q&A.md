@@ -46,4 +46,15 @@ If you login to swap site you will see your swap history at the bottom of the pa
 
 https://swap.wanchain.org/
 
+## Troubles on running latest windows wallet client-end
 
+If you download our Windows wallet Beta version in previous, please delete files as below before you download the latest windows wallet.
+
+File ONE : 
+
+> Delete files under
+> C:\Users\Administrator\AppData\Roaming\wanchain\gwan 
+
+FILE TWO : 
+> Delete files under
+> C:\Users\Administrator\AppData\Roaming\WanWalletGui
