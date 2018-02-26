@@ -55,6 +55,6 @@ File ONE :
 > Delete files under
 > C:\Users\Administrator\AppData\Roaming\wanchain\gwan 
 
-FILE TWO : 
+File TWO : 
 > Delete files under
 > C:\Users\Administrator\AppData\Roaming\WanWalletGui
