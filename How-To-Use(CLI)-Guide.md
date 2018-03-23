@@ -3,15 +3,15 @@
 ## How to use Wanchain Command Line Wallet
 
 ### run in windows x64
-- download latest version of `win_geth.zip` from https://github.com/wanchain/go-wanchain/releases/
-- unzip and run `geth.exe`
+- download latest version of zip file from https://github.com/wanchain/go-wanchain/releases/
+- unzip and run `gwan.exe`
 - download latest version of `wanchainclient_cli_win64.zip` from https://github.com/wanchain/go-wanchain/releases/
 - unzip and run `wanchain_client.cmd`
 
 ### run in linux or mac
 - Supported Env: `node v8+`
-- download lateset version of `linux_geth.tar.gz` from https://github.com/wanchain/go-wanchain/releases/
-- unzip and run `geth.exe`
+- download lateset version of tar.gz file from https://github.com/wanchain/go-wanchain/releases/
+- unzip and run `gwan`
 
 ### Install node packages
     $ git clone https://github.com/wanchain/Wanchain_Command_Line_Wallet.git
@@ -19,7 +19,7 @@
     $ npm install
     
 ### Select Wanchain network
-- Run `geth.exe` with network parameter
+- Run `gwan.exe` with network parameter
 - Modify `wanchainNet` value in config.js
 
 
