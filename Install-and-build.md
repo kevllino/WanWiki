@@ -8,11 +8,11 @@ Download source code from github
 
 Install latest distribution of Go (v1.9) from golang official website if you don't have it already
 
-Building geth requires Go and C compilers to be installed
+Building gwan requires Go and C compilers to be installed
 
 `sudo apt-get install -y build-essential `
 
-Finally, build the geth program using the following command.
+Finally, build the gwan program using the following command.
 
 `cd go-wanchain`
 
