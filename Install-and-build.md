@@ -6,11 +6,11 @@ Download source code from github
 
 `git clone https://github.com/wanchain/go-wanchain.git`
 
-Install latest distribution of Go (v1.9) if you don't have it already
+Install latest distribution of Go (v1.9) from golang official website if you don't have it already
 
 Building geth requires Go and C compilers to be installed
 
-`sudo apt-get install -y build-essential golang`
+`sudo apt-get install -y build-essential `
 
 Finally, build the geth program using the following command.
 
