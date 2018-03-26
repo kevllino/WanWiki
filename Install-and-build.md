@@ -20,4 +20,10 @@ Finally, build the geth program using the following command.
 
 You can now run build/bin/gwan to start your node.
 
+## Docker quick start
+One of the quickest ways to get gwan up and running on your machine is by using Docker:
+
+docker run -d --name wanchain-node -v /home/ubuntu/ethereum:/root \
+           -p 8545:8545 -p 17717:17717 \
+           wanchain/client-go --rpc
 
