@@ -4,5 +4,5 @@ Home
 * [Product update](https://github.com/wanchain/go-wanchain/wiki/Product-update)
 
 Getting started
-* Install the Wanchain Wallet
+* [Install the Wanchain Wallet](https://github.com/wanchain/go-wanchain/wiki/Install-the-Wanchain-Wallet)
 
