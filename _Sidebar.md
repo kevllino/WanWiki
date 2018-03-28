@@ -5,4 +5,4 @@ Home
 
 Getting started
 * [Install the Wanchain Wallet](https://github.com/wanchain/go-wanchain/wiki/Install-the-Wanchain-Wallet)
-
+* [Launch the Wanchain Wallet](https://github.com/wanchain/go-wanchain/wiki/Launch-the-Wanchain-Wallet)
