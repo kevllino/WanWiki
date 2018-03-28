@@ -7,3 +7,10 @@ If you participated in the Wanchain Alpha or Beta programs, uninstall the Wancha
 * Step 2: Download the version for your the system that you use and unzip the file (if required). Currently we support Windows, Mac and Linux. 
 
 ![Wanchain Wallet List]( https://github.com/wanchain/Wikiphoto/blob/master/Wanchain-wallet_list.png )
+
+<kbd>
+[[images/launch_img.png]]
+</kbd>
+
+<br>
+<br>
