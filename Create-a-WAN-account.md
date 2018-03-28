@@ -29,5 +29,5 @@ The Account balance in WANs is shown under the Private address.
 <br>
 <br>
 
-<span style="color:red">**The Public and Private address are for illustrative purposes only. Do NOT use them for any transactions as your WANs will be lost forever.**</span>
+**The Public and Private address are for illustrative purposes only. Do NOT use them for any transactions as your WANs will be lost forever.**
 
