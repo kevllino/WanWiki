@@ -18,7 +18,7 @@ Step 2: You can also search for a specific transaction by entering the **TxHash*
 <br>
 <br>
 
-Step 3: To view all the transactions in a specific block, enter the Block Number in the top right of the page
+Step 3: To view all the transactions in a specific block, enter the **Block Number** in the top right of the page
 
 <kbd>
 [[https://github.com/wanchain/Wikiphoto/blob/master/Wanchain-Explorer-3.PNG]]
