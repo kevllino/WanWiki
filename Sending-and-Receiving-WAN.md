@@ -27,7 +27,7 @@ Step 3: Enter the Password for your account and click SEND TRANSACTION
 <br>
 <br>
 
-Step 4: An summary of the transaction is shown under the Transaction List in the Wallet. 
+Step 4: A summary of the transaction is shown under the Transaction List in the Wallet. 
 
 <kbd>
 [[https://github.com/wanchain/Wikiphoto/blob/master/Wanchain-Send-5.PNG]]
@@ -50,4 +50,9 @@ Step 5: Click on the Transaction to get a more detailed view
 
 Step 1: To receive WANs, copy the Public Address and share this address with the other party. You can copy the address my simply clicking the square next to the Public Address. 
 
+<kbd>
+[[https://github.com/wanchain/Wikiphoto/blob/master/Wanchain-Send-1.PNG]]
+</kbd>
 
+<br>
+<br>
