@@ -53,13 +53,13 @@ Step 2: Once **Application Data** menu option is selected, a folder will open wi
 <br>
 <br>
 
-* Root folder (Windows): ~/Users/<username>/AppData/Roaming/WanWalletGui
-* Root folder (Mac OS): ~/Users/<username>/Library/Application Support/WanWalletGui
+* **Root folder** (Windows): ~/Users/<username>/AppData/Roaming/WanWalletGui
+* **Root folder** (Mac OS): ~/Users/<username>/Library/Application Support/WanWalletGui
 
 Step 3: **BACKUP!** You can move/copy and store in files and folders, preferably in offline storage.
 
 **Points to note:**
-* It is important to backup the Accounts and Application Data at regular intervals
+* It is important to backup the **Accounts** and **Application Data** at regular intervals
 * Preferably, store these backed-up information in an offline storage
 * If you delete these files , you will not lose your assets but you will not be able to see your assets at your current wallet
 * Use your Keystore File + Password to restore your Account and Balances. This can be done via the "Import Account" function, which will be covered in a relevant section
