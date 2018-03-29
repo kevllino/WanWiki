@@ -2,7 +2,7 @@ The **Accounts** and **Application Data** stores all your public transaction rec
 
 Ensure that you are on the Mainnet Blockchain (Develop > Network > main network)
 
-**Backup Keystore Accounts**
+## Backup Keystore Accounts
 
 A **keystore** is a repository where private keys are typically stored in a file. Keystore controls your account details, if you lose your keystore files you are at high risks to lose all your current assets, therefore we strongly recommend you backup all keystore files at a place you could trust and won't forget (ie Offline PC device or U-Disk etc).
 
