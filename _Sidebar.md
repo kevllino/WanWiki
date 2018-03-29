@@ -9,6 +9,7 @@ Getting started
 * [Create a WAN Account](https://github.com/wanchain/go-wanchain/wiki/Create-a-WAN-account)
 * [Send and Receive WAN](https://github.com/wanchain/go-wanchain/wiki/Send-and-Receive-WAN)
 * [Send and Receive Private Transactions](https://github.com/wanchain/go-wanchain/wiki/Send-and-Receive-Private-Transactions)
+* [View your account with the Wanchain Explorer](https://github.com/wanchain/go-wanchain/wiki/View-your-account-with-the-Wanchain-Explorer)
 
 
 
