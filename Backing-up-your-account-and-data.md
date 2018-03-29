@@ -33,7 +33,7 @@ Step 3: The **keystore** sub-folder will have the keystore files of all the acco
 
 Step 4: **BACKUP!** You can move/copy and store in files, preferably in offline storage. Remember, the Keystore file + your Account password is the only way to access your account on the wallet.
 
-### Backup Application Data
+## Backup Application Data
 
 Step 1: Navigate to Files > Backup > Application Data
 
