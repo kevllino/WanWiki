@@ -12,6 +12,9 @@ Getting started
 * [View your account with the Wanchain Explorer](https://github.com/wanchain/go-wanchain/wiki/View-your-account-with-the-Wanchain-Explorer)
 * [Backing up your account and data](https://github.com/wanchain/go-wanchain/wiki/Backing-up-your-account-and-data)
 * [Restoring your account](https://github.com/wanchain/go-wanchain/wiki/Restoring-your-account)
+* [Uninstall the Wanchain Wallet](https://github.com/wanchain/go-wanchain/wiki/Uninstall-the-Wanchain-Wallet)
+
+
 
 
 
