@@ -8,7 +8,7 @@ Getting started
 * [Launch the Wanchain Wallet](https://github.com/wanchain/go-wanchain/wiki/Launch-the-Wanchain-Wallet)
 * [Create a WAN Wallet](https://github.com/wanchain/go-wanchain/wiki/Create-a-WAN-account)
 * [Send and Receive WAN](https://github.com/wanchain/go-wanchain/wiki/Send-and-Receive-WAN)
-* [Send and Receive Private Transactions](https://github.com/wanchain/go-wanchain/wiki/Sending-and-Receiving-WAN)
+* [Send and Receive Private Transactions](https://github.com/wanchain/go-wanchain/wiki/Send-and-Receive-Private-Transactions)
 
 
 
