@@ -14,6 +14,9 @@ Getting started
 * [Restoring your account](https://github.com/wanchain/go-wanchain/wiki/Restoring-your-account)
 * [Uninstall the Wanchain Wallet](https://github.com/wanchain/go-wanchain/wiki/Uninstall-the-Wanchain-Wallet)
 
+FAQ
+* [Frequently asked questions](https://github.com/wanchain/go-wanchain/wiki/Uninstall-the-Wanchain-Wallet)
+
 
 
 
