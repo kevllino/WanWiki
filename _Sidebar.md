@@ -14,6 +14,11 @@ Getting started
 * [Restoring your account](https://github.com/wanchain/go-wanchain/wiki/Restoring-your-account)
 * [Uninstall the Wanchain Wallet](https://github.com/wanchain/go-wanchain/wiki/Uninstall-the-Wanchain-Wallet)
 
+Developer Tools
+* [Getting WANs from Wanchain's Testnet Faucet](https://github.com/wanchain/go-wanchain/wiki/Getting-WANs-from-Wanchain's-Testnet-Faucet)
+* [How to deploy smart contracts on Wanchain](https://github.com/wanchain/go-wanchain/wiki/How--to-deploy-smart-contracts-on-Wanchain)
+* [Install and build](https://github.com/wanchain/go-wanchain/wiki/Install-and-build)
+
 FAQ
 * [Frequently asked questions](https://github.com/wanchain/go-wanchain/wiki/Uninstall-the-Wanchain-Wallet)
 
