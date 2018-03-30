@@ -1,6 +1,6 @@
 
 ---
-# About Wanchain
+# Welcome to Wanchain
 
 ---
 Wanchain's vision is to rebuild finance as we know it, by bringing the world's digital assets onto one blockchain. Wanchain's blockchain brings together the unique capabilities of privacy, cross-chain and smart contracts.
