@@ -8,7 +8,7 @@ A **keystore** is a repository where private keys are typically stored in a file
 
 Under any circumstances, you should NOT share or reveal your keystore information with anyone you don't trust, you might get stolen by doing so . If you think your keystore has been leak to any 3rd parties, please transfer your assets to a new account.
 
-Step 1: Navigate to Files > Backup > Accounts after launching the Wanchain Desktop Wallet
+**Step 1**: Navigate to **Files > Backup > Accounts** after launching the **Wanchain Desktop Wallet**
 
 <kbd>
 [[https://github.com/wanchain/Wikiphoto/blob/master/Wanchain-Backup-1.PNG]]
@@ -17,9 +17,9 @@ Step 1: Navigate to Files > Backup > Accounts after launching the Wanchain Deskt
 <br>
 <br>
 
-Step 2: Once Accounts menu option is selected, a folder will open with keystore sub-folder
+**Step 2**: Once Accounts menu option is selected, a folder will open with keystore sub-folder
 
-Step 3: The **keystore** sub-folder will have the keystore files of all the accounts held on your Wanchain Desktop Wallet. For instance, the below Wanchain Desktop Wallet has two wallets, hence the keystore folder displays keystore files for two accounts.
+**Step 3**: The **keystore** sub-folder will have the keystore files of all the accounts held on your Wanchain Desktop Wallet. For instance, the below Wanchain Desktop Wallet has two wallets, hence the keystore folder displays keystore files for two accounts.
 
 <kbd>
 [[https://github.com/wanchain/Wikiphoto/blob/master/Wanchain-Backup-2.PNG]]
@@ -31,11 +31,11 @@ Step 3: The **keystore** sub-folder will have the keystore files of all the acco
 * **Root folder** (Windows): ~/Users/<username>/AppData/Roaming/Wanchain
 * **Root folder** (Mac OS): ~/Users/<username>/Library/wanchain/
 
-Step 4: **BACKUP!** You can move/copy and store in files, preferably in offline storage. Remember, the Keystore file + your Account password is the only way to access your account on the wallet.
+**Step 4**: **BACKUP!** You can move/copy and store in files, preferably in offline storage. Remember, the Keystore file + your Account password is the only way to access your account on the wallet.
 
 ## Backup Application Data
 
-Step 1: Navigate to Files > Backup > Application Data
+**Step 1**: Navigate to **Files > Backup > Application Data**
 
 <kbd>
 [[https://github.com/wanchain/Wikiphoto/blob/master/Wanchain-Backup-3.PNG]]
@@ -44,7 +44,7 @@ Step 1: Navigate to Files > Backup > Application Data
 <br>
 <br>
 
-Step 2: Once **Application Data** menu option is selected, a folder will open with multiple sub-folders and files in it
+**Step 2**: Once **Application Data** menu option is selected, a folder will open with multiple sub-folders and files in it
 
 <kbd>
 [[https://github.com/wanchain/Wikiphoto/blob/master/Wanchain-Backup-4.PNG]]
@@ -56,7 +56,7 @@ Step 2: Once **Application Data** menu option is selected, a folder will open wi
 * **Root folder** (Windows): ~/Users/<username>/AppData/Roaming/WanWalletGui
 * **Root folder** (Mac OS): ~/Users/<username>/Library/Application Support/WanWalletGui
 
-Step 3: **BACKUP!** You can move/copy and store in files and folders, preferably in offline storage.
+**Step 3**: **BACKUP!** You can move/copy and store in files and folders, preferably in offline storage.
 
 **Points to note:**
 * It is important to backup the **Accounts** and **Application Data** at regular intervals
