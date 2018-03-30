@@ -4,13 +4,9 @@
 - Node v8+
 - GWAN (Wanchain Node)
 
-**Mac OS**
-**Step 1**: Install Brew using terminal: https://brew.sh
+**Mac OS**: Install Brew using terminal: https://brew.sh and Run `brew install node`
 
-**Step 2**: Run `brew install node`
-
-**Linux**
-**Step 1**: Install the node through your package manager. For example on Debian/Ubuntu,  run `apt-get install node`
+**Linux**: Install the node through your package manager. For example on Debian/Ubuntu,  run `apt-get install node`
 
 ## Downloading & Running the Wanchain Node
 
