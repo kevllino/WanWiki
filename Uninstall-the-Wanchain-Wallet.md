@@ -1,8 +1,8 @@
 ## On Windows
 
-Step 1: Close the WanWalletGui Application (if open)
+**Step 1**: Close the **WanWalletGui** Application (if open)
 
-Step 2: Navigate to Start menu > WanWalletGui > Uninstall
+**Step 2**: Navigate to **Start menu > WanWalletGui > Uninstall**
 
 <kbd>
 [[https://github.com/wanchain/Wikiphoto/blob/master/Wanchain-Uninstall-1.PNG]]
@@ -11,7 +11,7 @@ Step 2: Navigate to Start menu > WanWalletGui > Uninstall
 <br>
 <br>
 
-Step 3: Click the Uninstall button
+**Step 3**: Click the **Uninstall** button
 
 <kbd>
 [[https://github.com/wanchain/Wikiphoto/blob/master/Wanchain-Uninstall-2.PNG]]
@@ -20,7 +20,7 @@ Step 3: Click the Uninstall button
 <br>
 <br>
 
-Step 4: Wait for the uninstall process to complete and click Close
+**Step 4**: Wait for the uninstall process to complete and click **Close**
 
 <kbd>
 [[https://github.com/wanchain/Wikiphoto/blob/master/Wanchain-Uninstall-3.PNG]]
@@ -29,7 +29,7 @@ Step 4: Wait for the uninstall process to complete and click Close
 <br>
 <br>
 
-Step 5: Click OK to delete the data directories with file to backup
+**Step 5**: Click **OK** to delete the data directories with file to backup
 
 <kbd>
 [[https://github.com/wanchain/Wikiphoto/blob/master/Wanchain-Uninstall-4.PNG]]
@@ -38,7 +38,7 @@ Step 5: Click OK to delete the data directories with file to backup
 <br>
 <br>
  
-Step 6: Back up the following folders and then delete to complete the uninstall process.
+**Step 6**: Back up the following folders and then delete to complete the uninstall process.
 
 * Root folder (Windows): ~/Users/<username>/AppData/Roaming/Wanchain
 * Root folder (Windows): ~/Users/<username>/AppData/Roaming/WanWalletGui
@@ -48,8 +48,9 @@ Remember to store these files in a secure location.
 
 ## On Mac
 
-Step 1: Navigate to the folder where the WanWalletGui Application is located
-Step 2: Drag and Drop the WanWalletGui Application file to Trash
+**Step 1**: Navigate to the folder where the **WanWalletGui** Application is located
+
+**Step 2**: Drag and Drop the **WanWalletGui** Application file to Trash
 
 As a result of the above:
 
