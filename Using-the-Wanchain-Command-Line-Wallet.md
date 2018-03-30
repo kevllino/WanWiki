@@ -44,53 +44,56 @@
  
 Once completed you will see your **Public** and **Private** address displayed which you can use to receive WAN.
 
-------------------
-## How to use Wanchain Command Line Wallet
+## Sending and Receiving WAN
 
-### run in windows x64
-- download latest version of zip file from https://github.com/wanchain/go-wanchain/releases/
-- unzip and run `gwan.exe`
-- download latest version of `wanchainclient_cli_win64.zip` from https://github.com/wanchain/go-wanchain/releases/
-- unzip and run `wanchain_client.cmd`
+You can send WAN through one command: node src/send.js --address "" --toaddress "" --amount "" --FeeSel "1" --submit "Y" --password ""
 
-### run in linux or mac
-- Supported Env: `node v8+`
-- download lateset version of tar.gz file from https://github.com/wanchain/go-wanchain/releases/
-- unzip and run `gwan`
+* **address**: Enter the Public address that you wish to send from
+* **toaddress**: Enter the Public address that you wish to send to
+* **amount**: Enter the amount you wish to transfer
+* **FeelSel**: Enter the gas price (default or custom options available). Change --FeeSel to "2" if you wish to specify custom gas/gas price and add options --gasLimit "" --gasPrice ""
+* **submit**: Confirm the transaction
+* **password**: Enter your account password
 
-### Install node packages
-    $ git clone https://github.com/wanchain/Wanchain_Command_Line_Wallet.git
-    $ cd Wanchain_Command_Line_Wallet 
-    $ npm install
+To Receive WAN, simply share your **Public Address** with the sender. The WANs will automatically appear in your account once the transaction has been processed. 
+
+## Sending Private Transactions
+
+A private WAN transaction can be made using the following command: node src/sendPrivacy.js --address "" --waddress "" --PrivacyAmount "" --FeeSel "1" --submit "Y" --password ""
+
+* **address**: Enter the Private address that you wish to send from
+* wtoaddress**: Enter the one time Private address that you wish to send to
+* **PrivacyAmount**: Enter the amount you wish to transfer: 10, 20, 50, 100, 200, 500, 1000, 5000, 50000
+* **FeelSel**: Enter the gas price (default or custom options available). Change --FeeSel to "2" if you wish to specify custom gas/gas price and add options --gasLimit "" --gasPrice ""
+* **submit**: Confirm the transaction
+* **password**: Enter your account password
+
+## Receiving Private Transactions
+
+**Step 1**: To receive private address you should provide the sender with your OTA address (waddress in cli - long format address)
+
+**Step 2**: Once the WANs have been sent you can now scan OTAs to update your OTA balance. Run the following command in a new terminal: `cd backend && node wanChainBlockScan.js`
     
-### Select Wanchain network
-- Run `gwan.exe` with network parameter
-- Modify `wanchainNet` value in config.js
+**Step3**: Now update your OTA balance by running `node fetchMyOTA.js`
 
+## Backing up your wallet
+        
+When creating a new wallet, the keystore file is stored in the same directory as when you are using the Wanchain GUI wallet:
 
-### If you want fetch OTAs, please run the following command based on your OS env to Scan OTAs in new terminal first.
-#### run in windows x64
-    $ cd backend 
-    $ node wanChainBlockScan.js
-#### run in linux or mac
-    $ cd backend 
-    $ node wanChainBlockScan.js
+* MacOS: /Users/USERNAMEHERE/Library/Wanchain/keystore
+* Linux: ~/.wanchain/keystore
+* Windows: C:\Users\USERNAM\AppData\Roaming\wanchain
 
-### run Wanchain Command Line Wallet in src dir
+We recommend you store a copy of the keystore folder once you create new wallets in a secure offline location.
 
-    $ cd src
+## List of support commands
 
-### Executing commands
 #### Run each `*.js` file as `node *.js or node <filename> without .js` in command line. 
 #### For example,
 
     $ node createKeystore.js
     or
     $ node createKeystore
-
-Supports command line input parameters and default input parameter 'Q' or 'q' to exit the process. 
-
-### List of supported commands
 
 | File          | Purpose       |   Parameters  |  Command  |
 | ------------- | ------------- |-------------|---------|
@@ -110,16 +113,3 @@ Supports command line input parameters and default input parameter 'Q' or 'q' to
 | fetchTokenOTA.js | fetch token privacy OTAs| `--address  --password` | ```node fetchTokenOTA.js --address  --password```|
 | TokenTransactionList.js | list Token privacy Transactions send from me| `--address` | ```node TokenTransactionList.js --address```|
 | watchTokenOTA.js | fetch My OTA Balance from Token address and OTA address| `--address  --tokenAddress --OTAAddress` | ```node watchTokenOTA.js --address  --tokenAddress --OTAAddress```|
-
-
-
-
-
-new Scan Block Command is backend/wanChainBlockScan.js
-
-** run `cd backend && node wanChainBlockScan.js` in new terminal first
-
-
-some test Command in test directory is helpful to test:
-initPrivacyAsset.js        give you a OTA Balance with 5000 wan
-deployContract.js          deploy a new contract
