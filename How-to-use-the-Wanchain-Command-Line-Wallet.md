@@ -1,4 +1,3 @@
-# Wanchain_Command_Line_Wallet
 
 ## How to use Wanchain Command Line Wallet
 
