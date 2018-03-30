@@ -16,6 +16,7 @@ Getting started
 Developer Tools
 * [Getting WANs from Wanchain's Testnet Faucet](https://github.com/wanchain/go-wanchain/wiki/Getting-WANs-from-Wanchain's-Testnet-Faucet)
 * [How to deploy smart contracts on Wanchain](https://github.com/wanchain/go-wanchain/wiki/How--to-deploy-smart-contracts-on-Wanchain)
+* [Using the Wanchain Command Line Wallet](https://github.com/wanchain/go-wanchain/wiki/Using-the-Wanchain-Command-Line-Wallet)
 * [Install and build](https://github.com/wanchain/go-wanchain/wiki/Install-and-build)
 
 FAQ
