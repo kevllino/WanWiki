@@ -20,7 +20,7 @@ Developer Tools
 * [Install and build](https://github.com/wanchain/go-wanchain/wiki/Install-and-build)
 
 FAQ
-* [Frequently asked questions](https://github.com/wanchain/go-wanchain/wiki/Uninstall-the-Wanchain-Wallet)
+* [Frequently asked questions](https://github.com/wanchain/go-wanchain/wiki/Frequently-Asked-Questions)
 
 
 
