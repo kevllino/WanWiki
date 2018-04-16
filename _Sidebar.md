@@ -1,6 +1,6 @@
 Home
 * [About Wanchain](https://github.com/wanchain/go-wanchain/wiki)
-* [Latest Product Release](https://github.com/wanchain/go-wanchain/releases/tag/v1.0.0)
+* [Latest Product Release](https://github.com/wanchain/go-wanchain/releases/)
 
 Getting started
 * [Install the Wanchain Wallet](https://github.com/wanchain/go-wanchain/wiki/Install-the-Wanchain-Wallet)
