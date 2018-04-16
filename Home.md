@@ -21,4 +21,4 @@ Further, Wanchain's blockchain is based on Ethereum, enabling the ability to dep
 * @ Instagram : https://www.instagram.com/wanchain_org
 * @ Wechat : Wanchain_org
 
-The latest release of our product can be found here: https://github.com/wanchain/go-wanchain/releases/tag/v1.0.0
+The latest release of our product can be found here: https://github.com/wanchain/go-wanchain/releases/
