@@ -44,3 +44,13 @@ All our community managers are really the key points of interface to the communi
 We have the interoperability alliance which we announced late last year as well as the KyberNetwork and recent Austin Blockchain Collective.
 
 During the mainnet launch, we went through that how Wanchain plans to rebuild the financial industry and what technological and business partnerships are going to be built coming months. More details will follow in the coming months about the Wanchain Ecosystem and the Wanchain strategy moving forward.
+
+### Address format rules
+Wanchain account addresses are 20 bytes long. In the human readable form they are ASCII-encoded hex strings, such as: 0x731Bd7289b4191706b00f6f1877662B5E8697E82. The "0x" prefix is optional.
+Even though they appear to look like Ethereum addresses - the Wanchain addresses are intentionally designed to be incompatible with that unrelated blockchain. This is to prevent user funds from being sent to an addresses created on the wrong blockchain (tools).
+The difference comes from the capitalization rules of the letters in the addresses.
+In case of Ethereum - capitalization of alphabet letters within the address is optional, and it's up to individual service providers to use it or require it.
+In Wanchain's case all our tools insists on addresses being capitalized correctly, following the Wanchain address format rules.
+For technically inclined, this rule is as follows: convert the address to hex, but if the ith digit is a letter (ie. it's one of abcdef) print it in lowercase if the ith bit of the hash of the address (in binary form) is 1 otherwise print it in uppercase.
+Which happens to be the exact opposite of the Ethereum's EIP 55 suggested format; but again there is not guarantee that Ethereum tools enforce proper address checksumming as it was added to that ecosystem as an afterthought.
+If a need arises we will provide an online conversion/checker tool for Wanchain addresses.
