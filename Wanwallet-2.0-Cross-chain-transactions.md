@@ -31,4 +31,16 @@ Download Wanwallet 2.0 installation file from https://wanchain.org/product
 
 Extract the file, run, and click the "LAUNCH APPLICATION" button to start the wallet
 
+For Linux: Setup by CLI: sudo dpkg -i WanWalletGui-linux64-2.0.X.deb
+                 Start by CLI for main network: wanwalletgui                
+                 Start by CLI for test network: wanwalletgui --network testnet
 
+Or click Wanwalletgui to start under /usr/local/bin/
+
+# 3) Toggle between main net and test network
+
+Wanwallet 2.0 works with both main and test networks of Wanchain and Ethereum.
+
+Below you can see the Wanchain accounts overview page (also the default start-up page), you can access it anytime by clicking on the Wanchain logo on the upper-left corner
+
+Use the menu option below (Develop--->Network) to switch between main network (default network) and test network.
