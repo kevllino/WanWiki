@@ -33,9 +33,13 @@ Extract the file, run, and click the "LAUNCH APPLICATION" button to start the w
 
 ![](https://raw.githubusercontent.com/albert-fu/images_for_github/master/test/Wanwallet_launch.PNG)
 
+
 For Linux users: 
+
 Setup by CLI: `sudo dpkg -i WanWalletGui-linux64-2.0.X.deb`
+
 Start by CLI for main network: `wanwalletgui`                
+
 Start by CLI for test network: `wanwalletgui --network testnet`
 
 Or click Wanwalletgui to start under `/usr/local/bin/`
