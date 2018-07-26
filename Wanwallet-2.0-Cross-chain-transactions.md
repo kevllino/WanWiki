@@ -115,7 +115,8 @@ If you do not confirm before the HTLC countdown ends, it means you choose to can
 The "Confirm" button changes to "**Cancel**" and you can click it to cancel the transaction once it _**turned red**_
 
 
-***
+
+## Confirm transaction
 
 Once the “Confirm” button turned **red**, click it to access “**Confirm Transaction**” page.
 
@@ -126,7 +127,8 @@ Enter the password then click “OK” button to finalize transaction
 ![](https://raw.githubusercontent.com/albert-fu/images_for_github/master/test/Wanwallet_confirm_transaction_2.PNG)
 
 
-***
+
+## Cancel transaction
 
 Once the “Cancel” button turned **red** (after countdown ends), click it to access “**Cancel Transaction**” page.
 
