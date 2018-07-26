@@ -1,6 +1,6 @@
 **Notes:**
 
-With 2.0 release, Wanwallet now supports cross-chain transactions with Ethereum. 
+With 2.0 release, Wanwallet now supports **cross-chain transactions with Ethereum**. 
 
 Previous versions of Wanwallet still work as usual after release of Wanwallet 2.0, but new features like cross-chain transactions require Wanwallet 2.0 or later.
 
@@ -14,9 +14,9 @@ This version combines ETH light wallet and WAN full node wallet.
 
 **Terminology**
 
-**WETH**: Wanchain Ethereum Crosschain Token, ETH symbol on Wanchain.
+* **WETH**: Wanchain Ethereum Crosschain Token, ETH symbol on Wanchain.
 
-**HTLC**: Hashed Timelock Contracts.
+* **HTLC**: Hashed Timelock Contracts.
 
 
 
@@ -38,11 +38,11 @@ For Linux users: 
 
 Setup by CLI: `sudo dpkg -i WanWalletGui-linux64-2.X.X.deb`
 
-Start by CLI for main network: `wanwalletgui`                
+* Start by CLI for main network: `wanwalletgui`                
 
-Start by CLI for test network: `wanwalletgui --network testnet`
+* Start by CLI for test network: `wanwalletgui --network testnet`
 
-Or click Wanwalletgui to start under `/usr/local/bin/`
+* Or click Wanwalletgui to start under `/usr/local/bin/`
 
 # 3) Toggle between main net and test network
 
@@ -82,16 +82,16 @@ Before you make a crosschain transaction, please check WAN and ETH balance in y
 
 Main network：
 
-ETH: https://etherscan.io/
+* ETH: https://etherscan.io/
 
-WAN: https://www.wanscan.org/
+* WAN: https://www.wanscan.org/
 
 
 Test network：
 
-ETH: https://rinkeby.etherscan.io/
+* ETH: https://rinkeby.etherscan.io/
 
-WAN: http://13.58.108.244/
+* WAN: http://13.58.108.244/
 
 
 # 6) Send ETH to Wanchain
@@ -115,6 +115,8 @@ If you do not confirm before the HTLC countdown ends, it means you choose to can
 The "Confirm" button changes to "**Cancel**" and you can click it to cancel the transaction once it _**turned red**_
 
 
+***
+
 Once the “Confirm” button turned **red**, click it to access “**Confirm Transaction**” page.
 
 ![](https://raw.githubusercontent.com/albert-fu/images_for_github/master/test/Wanwallet_confirm_transaction_1.PNG)
@@ -122,6 +124,9 @@ Once the “Confirm” button turned **red**, click it to access “**Confirm Tr
 Enter the password then click “OK” button to finalize transaction 
 
 ![](https://raw.githubusercontent.com/albert-fu/images_for_github/master/test/Wanwallet_confirm_transaction_2.PNG)
+
+
+***
 
 Once the “Cancel” button turned **red** (after countdown ends), click it to access “**Cancel Transaction**” page.
 
@@ -132,7 +137,21 @@ Enter the password then click “OK” button to cancel the transaction
 ![](https://raw.githubusercontent.com/albert-fu/images_for_github/master/test/Wanwallet_cancel_transaction_2.PNG)
 
 
+# 8) Send WETH to Ethereum
+
+If you have ETH balance on Wanchain (WETH balance), you can send WETH back to Ethereum.
+
+Click the "WETH >> ETH" tab below to perform this kind of cross-chain transaction.    
+
+![](https://raw.githubusercontent.com/albert-fu/images_for_github/master/test/Wanwallet_WETHtoETH.PNG)
+
+The process is similar to the ETH to Wanchain one, please refer to section 7 for details about how to confirm or cancel the transaction.
 
 
+# 9) Normal Ethereum transactions
 
+You can also perform normal Ethereum transaction in Wanwallet GUI.
 
+Click the "Normal transaction" tab below, fill source and destination accounts, transaction amount, fee preference, then click "SEND"
+
+![](https://raw.githubusercontent.com/albert-fu/images_for_github/master/test/Wanwallet_ETHtoETH.PNG)
