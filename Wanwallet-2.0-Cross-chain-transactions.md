@@ -36,7 +36,7 @@ Extract the file, run, and click the "LAUNCH APPLICATION" button to start the w
 
 For Linux users: 
 
-Setup by CLI: `sudo dpkg -i WanWalletGui-linux64-2.0.X.deb`
+Setup by CLI: `sudo dpkg -i WanWalletGui-linux64-2.X.X.deb`
 
 Start by CLI for main network: `wanwalletgui`                
 
@@ -53,3 +53,30 @@ Below you can see the Wanchain accounts overview page (also the default start-up
 Use the menu option below (Develop--->Network) to switch between main network (default network) and test network.
 
 ![](https://raw.githubusercontent.com/albert-fu/images_for_github/master/test/Wanwallet_toggle_network.PNG)
+
+
+
+# 4) Create/Import accounts
+
+These 2 options allow you to create new WAN or new ETH account. 
+
+The "CREATE ACCOUNT" button in the upper-right corner only creates new WAN account
+
+![](https://raw.githubusercontent.com/albert-fu/images_for_github/master/test/Wanwallet_create_account.PNG)
+
+You can also import existing WAN or ETH account using wallet keystore file
+
+![](https://raw.githubusercontent.com/albert-fu/images_for_github/master/test/Wanwallet_create_account.PNG)
+
+Backup feature opens local keystore files location of WAN or ETH accounts
+
+
+
+# 5) Cross-chain transactions
+
+Crosschain transactions are under this tab
+
+![](https://raw.githubusercontent.com/albert-fu/images_for_github/master/test/Wanwallet_crosschain.PNG)
+
+
+
