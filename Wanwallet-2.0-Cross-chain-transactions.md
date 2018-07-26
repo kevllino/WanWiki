@@ -4,7 +4,7 @@ With 2.0 release, Wanwallet now supports cross-chain transactions with Ethereum.
 
 Previous versions of Wanwallet still work as usual after release of Wanwallet 2.0, but new features like cross-chain transactions require Wanwallet 2.0 or later.
 
-For users of previous versions, we strongly recommend **backing up keystore files** in a safe location before upgrading to Wanwallet 2.0 to prevent any kind of data loss, though the upgrading process will not alter existing keystore files in any way.
+For users of previous versions, we strongly recommend **_backing up keystore files_** in a safe location before upgrading to Wanwallet 2.0 to prevent any kind of data loss, though the upgrading process will not alter existing keystore files in any way.
 
 This instruction guide is for Wanwallet 2.0 GUI in which users can send ETH to Wanchain and withdraw ETH from Wanchain to Ethereum.
 
@@ -77,6 +77,62 @@ Backup feature opens local keystore files location of WAN or ETH accounts
 Crosschain transactions are under this tab
 
 ![](https://raw.githubusercontent.com/albert-fu/images_for_github/master/test/Wanwallet_crosschain.PNG)
+
+Before you make a crosschain transaction, please check WAN and ETH balance in your account in Wanwallet GUI or with links below.
+
+Main network：
+
+ETH: https://etherscan.io/
+
+WAN: https://www.wanscan.org/
+
+
+Test network：
+
+ETH: https://rinkeby.etherscan.io/
+
+WAN: http://13.58.108.244/
+
+
+# 6) Send ETH to Wanchain
+
+Click the "ETH >> WETH" tab below to send ETH to Wanchain
+
+![](https://raw.githubusercontent.com/albert-fu/images_for_github/master/test/Wanwallet_ETHtoWanchain.PNG)
+
+Enter your password then press “OK” button to send the transaction.
+
+![](https://raw.githubusercontent.com/albert-fu/images_for_github/master/test/Wanwallet_sendTransaction.PNG)
+
+
+# 7) Confirm/Cancel the transaction
+
+In the "Transaction history" tab, click on the “**Confirm**" button to finalize the cross-chain transaction process once it _**turned red**_.
+
+![](https://raw.githubusercontent.com/albert-fu/images_for_github/master/test/Wanwallet_confirm_cancel_transaction.PNG)
+
+If you do not confirm before the HTLC countdown ends, it means you choose to cancel the transaction and refund the ETH from the locked account. 
+The "Confirm" button changes to "**Cancel**" and you can click it to cancel the transaction once it _**turned red**_
+
+
+Once the “Confirm” button turned **red**, click it to access “**Confirm Transaction**” page.
+
+![](https://raw.githubusercontent.com/albert-fu/images_for_github/master/test/Wanwallet_confirm_transaction_1.PNG)
+
+Enter the password then click “OK” button to finalize transaction 
+
+![](https://raw.githubusercontent.com/albert-fu/images_for_github/master/test/Wanwallet_confirm_transaction_2.PNG)
+
+Once the “Cancel” button turned **red** (after countdown ends), click it to access “**Cancel Transaction**” page.
+
+![](https://raw.githubusercontent.com/albert-fu/images_for_github/master/test/Wanwallet_cancel_transaction_1.PNG)
+
+Enter the password then click “OK” button to cancel the transaction 
+
+![](https://raw.githubusercontent.com/albert-fu/images_for_github/master/test/Wanwallet_cancel_transaction_2.PNG)
+
+
+
 
 
 
