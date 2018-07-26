@@ -12,6 +12,7 @@ Getting started
 * [Backing up your account and data](https://github.com/wanchain/go-wanchain/wiki/Backing-up-your-account-and-data)
 * [Restoring your account](https://github.com/wanchain/go-wanchain/wiki/Restoring-your-account)
 * [Uninstall the Wanchain Wallet](https://github.com/wanchain/go-wanchain/wiki/Uninstall-the-Wanchain-Wallet)
+* [Wanwallet 2.0 Cross-chain transactions](https://github.com/wanchain/go-wanchain/wiki/Wanwallet-2.0-Cross-chain-transactions)
 
 Developer Tools
 * [Getting WANs from Wanchain's Testnet Faucet](https://github.com/wanchain/go-wanchain/wiki/Getting-WANs-from-Wanchain's-Testnet-Faucet)
